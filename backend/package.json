@@ -1,0 +1,17 @@
+{
+  "name": "secure-connect-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure authentication, notes API, and real-time chat lab",
+  "main": "mvc/server.js",
+  "scripts": { "start": "node mvc/server.js", "dev": "node --watch mvc/server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "socket.io": "^4.8.1"
+  }
+}
